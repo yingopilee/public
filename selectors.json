@@ -1,1 +1,105 @@
 
+[
+  {
+    "val": "this.profile.email",
+    "selectors": [
+      "#checkout_email",
+      "#checkout_email_or_phone",
+      "input[name=\"checkout[email]\"]",
+      "input[name=\"checkout[email_or_phone]\"]",
+      "input[autocomplete=\"email\"]",
+      "input[autocomplete=\"shipping email\"]",
+      "input[name=\"email\"]"
+    ]
+  },
+  {
+    "val": "this.profile.first",
+    "selectors": [
+      "#checkout_shipping_address_first_name",
+      "input[name=\"checkout[shipping_address][first_name]\"]",
+      "input[autocomplete=\"given-name\"]",
+      "input[autocomplete=\"shipping given-name\"]",
+      "input[name=\"firstName\"]"
+    ]
+  },
+  {
+    "val": "this.profile.last",
+    "selectors": [
+      "#checkout_shipping_address_last_name",
+      "input[name=\"checkout[shipping_address][last_name]\"]",
+      "input[autocomplete=\"family-name\"]",
+      "input[autocomplete=\"shipping family-name\"]",
+      "input[name=\"lastName\"]"
+    ]
+  },
+  {
+    "val": "this.profile.addr1",
+    "selectors": [
+      "#checkout_shipping_address_address1",
+      "input[name=\"checkout[shipping_address][address1]\"]",
+      "input[autocomplete=\"address-line1\"]",
+      "input[autocomplete=\"shipping address-line1\"]",
+      "input[name=\"address1\"]",
+      "input[name*=\"address1\"]"
+    ]
+  },
+  {
+    "val": "this.profile.city",
+    "selectors": [
+      "#checkout_shipping_address_city",
+      "input[name=\"checkout[shipping_address][city]\"]",
+      "input[autocomplete=\"address-level2\"]",
+      "input[autocomplete=\"shipping address-level2\"]",
+      "input[name=\"city\"]"
+    ]
+  },
+  {
+    "val": "this.profile.country",
+    "selectors": [
+      "#checkout_shipping_address_country",
+      "select[name=\"checkout[shipping_address][country]\"]",
+      "select[autocomplete=\"country\"]",
+      "select[autocomplete=\"shipping country\"]",
+      "select[name=\"countryCode\"]",
+      "select[name=\"shippingAddress[countryCode]\"]",
+      "#Country",
+      "select[id*=\"country\"]"
+    ]
+  },
+  {
+    "val": "this.profile.province",
+    "selectors": [
+      "#checkout_shipping_address_province",
+      "select[name=\"checkout[shipping_address][province]\"]",
+      "select[autocomplete=\"address-level1\"]",
+      "select[autocomplete=\"shipping address-level1\"]",
+      "select[name=\"provinceCode\"]",
+      "select[name=\"zone\"]",
+      "select[name=\"shippingAddress[provinceCode]\"]",
+      "#Zone",
+      "input[name=\"checkout[shipping_address][province]\"]",
+      "input[autocomplete=\"address-level1\"]"
+    ]
+  },
+  {
+    "val": "this.profile.zip",
+    "selectors": [
+      "#checkout_shipping_address_zip",
+      "input[name=\"checkout[shipping_address][zip]\"]",
+      "input[autocomplete=\"postal-code\"]",
+      "input[autocomplete=\"shipping postal-code\"]",
+      "input[name=\"postalCode\"]",
+      "input[name=\"zip\"]"
+    ]
+  },
+  {
+    "val": "this.profile.phone",
+    "selectors": [
+      "#checkout_shipping_address_phone",
+      "input[name=\"checkout[shipping_address][phone]\"]",
+      "input[autocomplete=\"tel\"]",
+      "input[autocomplete=\"shipping tel\"]",
+      "input[name=\"phone\"]"
+    ]
+  }
+]
